@@ -1,7 +1,7 @@
 # CMSE202_G3
 Health and Wellness Group Project (Obesity)
 
-**How to run the code?** 
+## **How to run the code?** 
 - The quantization of the data follows:
   - 'family_history_with_overweight', 'FAVC', 'SMOKE', 'SCC' ; yes = 1.0 , no = 0.0
   - 'CAEC', 'CALC' ;  'Always': 1.0, 'Frequently': 0.67, 'Sometimes': 0.33, 'no': 0.0
@@ -18,12 +18,13 @@ Health and Wellness Group Project (Obesity)
        - `get_weight_category()`: Categorizes weight based on the BMI.
        - `print_summary()`: Displays a summary of health metrics, BMI, and weight category. 
 
-**What each member contributed?**
+## **What each member contributed?**
 - Atticus: Cleaning data frame and quantitating all non-numerical entries.  Created a correlation matrix between these variables with the takeaway of significant variables. Using these results created presentable visualizations between strongly correlated variables. Troubleshooting with data / visualizations as well.  
 - Deeya: Finding the dataset, writing the class, and creating the OLS regression summary. Formatting the .ipynb file and helping create a visually appealing presentation. Troubleshooting with data / visualizations. Wrote part of the abstract and then double-checked to make sure that it was in accordance with our final data. Helped coordinate group meeting times.
-- Shreyas: Worked on the final presentation, created interpretable legends so the visuals could then be legible rather than numbers, and completed Abstract. Helped troubleshoot output errors with the classes. 
+- Shreyas: Worked on the final presentation, created interpretable legends so the visuals could then be legible rather than numbers, and completed Abstract. Helped troubleshoot output errors with the classes.
 
-  **Abstract** 
+
+## **Abstract** 
 
   What factors impact obesity the most? How do different strategies to alleviate obesity compare? Addressing these questions about obesity typically necessitates a multifaceted approach incorporating dietary modifications, increased physical activity, behavior adjustments, and sometimes medical interventions.  By examining these factors, a more holistic approach to tackling obesity and promoting healthier lifestyles can be developed. 
 
